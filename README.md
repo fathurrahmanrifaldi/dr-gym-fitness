@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏋️‍♂️ Dr. Gym Fitness — Official Website
 
-## Getting Started
+> **"Train Strong. Pay Less."**  
+> Landing page modern, responsif, dan interaktif untuk pusat kebugaran **Dr. Gym Fitness** yang berlokasi di Tambun Selatan, Bekasi.
 
-First, run the development server:
+---
+
+## 📌 Tentang Proyek
+
+Website ini dibangun untuk memberikan informasi lengkap, transparan, dan menarik bagi calon member maupun member aktif Dr. Gym Fitness. Website ini dirancang dengan pendekatan *mobile-first*, navigasi intuitif, serta *Call to Action* (CTA) langsung terintegrasi ke WhatsApp untuk memaksimalkan tingkat konversi calon member.
+
+### 🌟 Fitur Utama & Struktur Konten
+- **Hero Section**: Value proposition yang kuat dengan CTA cepat menuju pendaftaran dan membership.
+- **About & Key Metrics**: Highlight profil gym sejak 2025, 30+ equipment, dan jam buka 18 jam/hari.
+- **Operating Hours Spotlight**: Penekanan jam operasional panjang (**06:00 – 00:00 WIB Setiap Hari**).
+- **Fasilitas Lengkap**: Showcase fasilitas (Weight Training, Punching Bag, Cek Body Composition, Mushola, Locker, Wi-Fi, dll).
+- **Certified Trainers**: Profil pelatih bersertifikasi beserta spesialisasi (*Muscle Gain*, *Fat Loss*, *Body Recomposition*).
+- **Membership & PT Pricing Table**: Transparansi harga paket harian/bulanan/tahunan dan paket Personal Trainer dengan auto-generated WhatsApp message link.
+- **Social Proof / Testimonial**: Ulasan asli dari member aktif.
+- **Integrasi Peta & Kontak**: Alamat lengkap, Google Maps embed, WhatsApp chat, dan tautan sosial media resmi.
+
+---
+
+## 🎨 Tema Desain
+
+- **Warna Utama**:
+  - Dark Navy (`#0A0F1D` / `#111827`) — Memberikan kesan tangguh, premium, dan fokus.
+  - Electric Blue (`#00E5FF` / `#2563EB`) — Aksen dinamis bertenaga tinggi untuk tombol CTA dan highlight.
+- **Tipografi**: Sans-Serif modern, tegas, dan mudah dibaca (Inter / Montserrat).
+- **Style**: Modern Fitness Aesthetic, Glassmorphism, Micro-interactions, & Dark Theme.
+
+---
+
+## 🛠️ Tech Stack Rekomendasi
+
+- **HTML5 & Semantic Markup**
+- **Tailwind CSS** (Styling & Responsive Design)
+- **JavaScript (ES6+) / Alpine.js** (Interaktivitas, Navbar Toggle, Modal)
+- **Lucide Icons / FontAwesome** (Iconography)
+
+---
+
+## 📂 Struktur Direktori (Contoh)
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+dr-gym-fitness/
+├── assets/
+│   ├── images/          # Foto fasilitas, trainer, & hero banner
+│   ├── icons/           # Asset icon/logo
+│   └── css/
+│       └── style.css    # Custom CSS / Tailwind build
+├── js/
+│   └── main.js          # Logic toggle menu, smooth scroll, tracking
+├── index.html           # Landing page utama
+└── README.md            # Dokumentasi proyek
