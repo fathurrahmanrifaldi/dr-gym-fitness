@@ -39,17 +39,3 @@ Website ini dibangun untuk memberikan informasi lengkap, transparan, dan menarik
 - **Lucide Icons / FontAwesome** (Iconography)
 
 ---
-
-## 📂 Struktur Direktori (Contoh)
-
-```bash
-dr-gym-fitness/
-├── assets/
-│   ├── images/          # Foto fasilitas, trainer, & hero banner
-│   ├── icons/           # Asset icon/logo
-│   └── css/
-│       └── style.css    # Custom CSS / Tailwind build
-├── js/
-│   └── main.js          # Logic toggle menu, smooth scroll, tracking
-├── index.html           # Landing page utama
-└── README.md            # Dokumentasi proyek
