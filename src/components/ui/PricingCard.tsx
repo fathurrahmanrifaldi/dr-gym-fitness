@@ -35,8 +35,8 @@ export default function PricingCard({
         isBestValue
           ? "bg-surface border-primary/50 scale-[1.02] lg:scale-105 shadow-[0_0_40px_rgba(59,130,246,0.2)] z-10"
           : isPT
-          ? "bg-surface border-white/5 hover:border-emerald-500/30 hover:shadow-[0_0_20px_rgba(16,185,129,0.1)]"
-          : "bg-surface border-white/5 hover:border-primary/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.1)]"
+            ? "bg-surface border-white/5 hover:border-emerald-500/30 hover:shadow-[0_0_20px_rgba(16,185,129,0.1)]"
+            : "bg-surface border-white/5 hover:border-primary/20 hover:shadow-[0_0_20px_rgba(59,130,246,0.1)]"
       } hover:-translate-y-1`}
     >
       {/* Badges */}
@@ -90,7 +90,10 @@ export default function PricingCard({
       {details.length > 0 && (
         <ul className="space-y-2 mb-6">
           {details.map((d) => (
-            <li key={d} className="flex items-center gap-2 text-sm text-text-secondary">
+            <li
+              key={d}
+              className="flex items-center gap-2 text-sm text-text-secondary"
+            >
               <Check
                 className={`w-4 h-4 flex-shrink-0 ${
                   isPT ? "text-emerald-400" : "text-primary"
@@ -114,8 +117,8 @@ export default function PricingCard({
           isBestValue
             ? "bg-primary hover:bg-primary-dark text-white glow-blue hover:glow-blue-strong"
             : isPT
-            ? "border-2 border-emerald-500/50 text-emerald-400 hover:bg-emerald-500 hover:text-white"
-            : "border-2 border-primary/50 text-primary hover:bg-primary hover:text-white"
+              ? "border-2 border-emerald-500/50 text-emerald-400 hover:bg-emerald-500 hover:text-white"
+              : "border-2 border-primary/50 text-primary hover:bg-primary hover:text-white"
         }`}
       >
         {ctaLabel}
