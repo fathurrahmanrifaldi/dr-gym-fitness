@@ -31,7 +31,7 @@ export default function PricingCard({
 
   return (
     <div
-      className={`relative flex flex-col rounded-2xl p-6 sm:p-8 border transition-all duration-300 ${
+      className={`relative flex flex-col rounded-2xl p-6 sm:p-8 lg:p-5 border transition-all duration-300 ${
         isBestValue
           ? "bg-surface border-primary/50 scale-[1.02] lg:scale-105 shadow-[0_0_40px_rgba(59,130,246,0.2)] z-10"
           : isPT
@@ -70,7 +70,7 @@ export default function PricingCard({
       {/* Price */}
       <div className="mt-3 mb-4">
         <span
-          className={`text-2xl sm:text-3xl lg:text-4xl font-bold font-heading break-words ${
+          className={`text-2xl sm:text-3xl lg:text-2xl xl:text-3xl font-bold font-heading whitespace-nowrap ${
             isBestValue ? "text-gradient-blue" : "text-text-primary"
           }`}
         >
